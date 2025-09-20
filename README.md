@@ -21,10 +21,10 @@ In this talk, Kaushal will demonstrate how MCP-enabled agents, combined with low
                              │ MCP Protocol
         ┌────────────────────┼────────────────────┐
         │                    │                    │
-┌───────▼────────┐  ┌───────▼────────┐  ┌───────▼────────┐
-│  Atlassian MCP │  │   GitHub MCP   │  │   Slack MCP    │
-│ JIRA/Confluence│  │  Code Analysis │  │  Notifications │
-└────────────────┘  └────────────────┘  └────────────────┘
+┌───────▼────────┐   ┌───────▼────────┐   ┌───────▼────────┐
+│  Atlassian MCP │   │   GitHub MCP   │   │   Slack MCP    │
+│ JIRA/Confluence│   │  Code Analysis │   │  Notifications │
+└────────────────┘   └────────────────┘   └────────────────┘
         │                    │                    │
         └────────────────────┼────────────────────┘
                              │
