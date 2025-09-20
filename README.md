@@ -45,3 +45,16 @@ In this talk, Kaushal will demonstrate how MCP-enabled agents, combined with low
         │ (Port 3000)│   │       │   │ Metrics  │
         └────────────┘   └───────┘   └──────────┘
 ```
+
+## 📂 Repository Structure
+
+This talk demonstration consists of three main repositories:
+
+### 1. [Demo API](https://github.com/kaushald/talk-ai-perf-demo-api)
+The target application for performance testing - a sample API server running on port 3000 with Redis and PostgreSQL backends.
+
+### 2. [K6 App Server](https://github.com/kaushald/talk-ai-perf-k6-app-server)
+HTTP server (port 3001) that orchestrates K6 test execution and manages performance test workflows.
+
+### 3. [K6 MCP Server](https://github.com/kaushald/talk-ai-perf-k6-mcp-server)
+Model Context Protocol server that enables Claude Desktop to interact with K6 for autonomous performance testing.
